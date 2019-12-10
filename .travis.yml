@@ -2,3 +2,4 @@ install: pip install --user codecov
 language: java
 
 after_success: codecov
+bash <(curl -s https://codecov.io/bash)
